@@ -3,43 +3,26 @@
 	color:#888;
 }
 #iconos2{
-	color:#0DC0C0;
-	font-size:50px;
-}
-#iconos3{
-	font-size: 40px;
+	color:#0DC0C0; font-size:50px;
 }
 #filtro{
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-	display: block;
-	position: absolute;
+	background: rgba(0,0,0,.5); width: 100%;  padding: 0px; margin: 0px; display: block;
 }
 /*Header Menu y logo */
 #seccion-1{
-	background: url("../img/background/hero.jpg");
-	background-size: cover;
-	height: 700px;
+	background: url("../img/background/hero.jpg"); background-size: cover; height: 700px;
 }
 .logo{
-	margin:15px 0px;
-	color: #FAFAFA;
-	font-size: 25px;
-	z-index: 5;
+	margin:15px 0px; color: #FAFAFA; font-size: 25px; z-index: 5;
 }
 .navbar-static-top ul{
 	padding: 20px 0px;
 }
 .navbar-static-top li{
-	display: inline-block;
-	font-weight: bold;
+	display: inline-block; font-weight: bold;
 }
 .navbar-static-top a{
-	color: white;
-	text-decoration: none;
-	margin: 20px;
+	color: white; text-decoration: none; margin: 20px;
 }
 .navbar-static-top a:hover{
 	color: #0DC0C0;
@@ -49,13 +32,8 @@
 	font-size: 55px;
 }
 .btn{
-	color: white;
-	background: rgba(1,0,0,.2);
-	border-radius: 0;
-	border: none;
-	position: relative;
-	margin:40px 20px 0px;
-	padding: 10px;
+	color: white; background: rgba(1,0,0,.2); border-radius: 0; border: none;
+	position: relative; margin:40px 20px 0px; padding: 10px;
 }
 .btn:hover{
 	background: #2d323a;
@@ -63,182 +41,122 @@
 }
 /*Menu con iconos*/
 #seccion-2{
-	background: #FAFAFA;
-	padding: 100px 150px 150px 100px;
-	text-align: center;
-	width: 100%;
+	width: 100%; background: #FAFAFA; padding: 100px 150px 150px 100px; text-align: center;
 }
 .s2-minicontenedor{
 	width: 250px;
 }
 .s2-minicontenedor h4{
-	padding: 0px;
-	margin-top: 0px;
+	padding: 0px; margin-top: 0px;
 }
 /*Seccion More Feactures*/
 #seccion-3{
- 	background: #f4f4f4;
- 	text-align: center;
- 	padding-top: 20px;
- 	width: 100%;
+ 	width: 100%; background: #f4f4f4; text-align: center; padding-top: 20px; 
 }
 .laptop-features{
 	width: 70%;
 }
 /*Seccion Iconos y Texto*/
 #seccion-4{
-	text-align: justify;
-	padding: 80px 0px 70px 30px;
+	text-align: justify; padding: 80px 0px 70px 30px;
 }
 .media{
 	margin-right: 30px;
 }
 /*Seccion Protafolio*/
 #seccion-5 {
-	background: #f4f4f4;
-	text-align: center;
-	width: 100%;
+	background: #f4f4f4; text-align: center; width: 100%;
 }
 .navbar-static li{
-	text-decoration: none;
-	display: inline-block;
-	margin-top: 20px;
+	text-decoration: none;  display: inline-block; margin-top: 20px;
 }
 .navbar-static a{
-	background: #fff;
-	padding: 10px;
-	font-weight: bold;
-	color: black;
+	background: #fff;  padding: 10px;  font-weight: bold;  color: black;
 }
 .navbar-static a:hover{
-	text-decoration: none;
-	background: #0DC0C0;
-	color:#FAFAFA;
+	text-decoration: none; background: #0DC0C0;color:#FAFAFA;
 }
 .s5-minicontenedor{
-	width: 530px;
-	margin-bottom: 25px;
-	padding: 10px 0px 0px 0px;
-	background: #FAFAFA;
-	border: 1px solid #c9d1d6;
+	width: 530px; margin-bottom: 25px; padding: 10px 0px 0px 0px;
+	background: #FAFAFA; border: 1px solid #c9d1d6;
 }
 .s5-minicontenedor h5{
 	padding: 5px 0px 0px 0px;
 	margin: 0px;
 }
 .s5-boton{
-	color: white;
-	background: #363c46;
-	border-radius: 0;
-	border: none;
-	position: relative;
-	margin:40px 20px 30px;
-	padding: 10px;
-	font-weight: bold;
+	color: white; background: #363c46; border-radius: 0; border: none; 
+	position: relative; margin:40px 20px 30px; padding: 10px; font-weight: bold;
 }
 /*Call to Action*/
 #seccion-6{
-	background: url("../img/background/city.jpg");
-	background-size: cover;
-	height:430px;
-	color: #FAFAFA;
-	text-align: center;
+	background: url("../img/background/city.jpg"); background-size: cover;
+	height:430px; color: #FAFAFA; text-align: center;
 }
 /*Choose the package*/
 #seccion-7{
-	background: #f4f4f4;
-	text-align: center;
-	width: 100%;
+	width: 100%; background: #f4f4f4; text-align: center; 
 	padding: 30px 0px 90px 0px;
 }
 .thumbnail{
-	height: 100%;
-	width: 93%;
-	margin-top: 40px;
-	padding: 30px 0px;
+	height: 100%; width: 93%; margin-top: 40px; padding: 30px 0px;
 }
 .thumbnail ul{
  	padding-left: 15px;
 }
 .thumbnail li{
-	list-style: none;
-	margin: 10px;
-	margin-left: 0px;
+	list-style: none; margin: 10px; margin-left: 0px;
 }
 .s7-negro{
-	height: 100%;
-	background: #323A45;
-	color: #FAFAFA;
-	width: 300px;
-	font-size: 30px;
-	padding: 20px;
+	height: 100%; background: #323A45; color: #FAFAFA;
+	width: 300px; font-size: 30px; padding: 20px;
 }
 .s7-celeste{
-	height: 100%;
-	background: #0DC0C0;
-	color: #FAFAFA;
-	width: 300px;
-	font-size: 30px;
-	padding: 20px;
+	height: 100%; background: #0DC0C0; color: #FAFAFA;
+	width: 300px; font-size: 30px; padding: 20px;
 }
 .s7-plomo{
-	height: 100%;
-	background: #f4f4f4;
-	color: #323A45;
-	width: 300px;
-	font-size: 16px;
-	padding: 35px;
-	margin-bottom: 40px;
+	height: 100%; background: #f4f4f4; color: #323A45; width: 300px;
+	font-size: 16px; padding: 35px; margin-bottom: 40px;
 }
 hr{
 	width: 260px;
 }
 .s7-boton{
-	color: white;
-	background: #363c46;
-	border-radius: 0;
-	border: none;
-	padding: 10px 20px 10px 20px;
-	font-weight: bold;
+	border-radius: 0; background: #363c46; color: white; 
+	border: none; padding: 10px 20px 10px 20px; font-weight: bold;
 }
 /*Testimonio*/
 #seccion-8{
-	background: #fff;
-	padding: 50px 150px 70px 100px;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	color: #24282e;
+	background: #fff; padding: 50px 150px 70px 100px; text-align: center;
+	width: 100%; height: 100%; color: #24282e;
 }
 .s8-foto{
-	border-radius: 100%;
-	width: 100px;
-	margin: 30px;
+	border-radius: 100%; width: 100px; margin: 30px;
 }
+/*contacto*/
 #seccion-9{
-	background: url("../img/background/contactus.jpg");
-	background-size: cover;
-	height: 700px;
-	color:#FAFAFA;
+	background: url("../img/background/contactus.jpg"); background-size: cover;	height: 700px;
 }
-.s9-c{
-	padding: 90px 0px;
-	margin-top: 50px;
-	color: #FAFAFA;
+.email , .subjet, .mensaje{
+	border: none; background: rgba(1,0,0,.2); color:#FAFAFA;
+	padding: 15px 300px 20px 10px; margin-bottom: 20px;
+}
+.mensaje{
+	padding-bottom: 100px;
+}
+.s9-boton{
+	border-radius: 0; border: none;  background: #0DC0C0; color: white;
+	padding: 15px 40px 15px 40px; font-weight: bold;
 }
 /*Sigenos*/
 #seccion-10{
-	background: #FAFAFA;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	padding: 30px 0px 100px 0px;
+	background: #FAFAFA; height: 100%; width: 100%; text-align: center; padding: 60px 0px 80px 0px;
 }
-/*contacto*/
+#iconos3{
+	font-size: 40px; margin-left: 10px;
+}
+/*Footer*/
 .footer{
-	background: black; 
-	color:#fff;
-	height: 100%;
-	padding: 30px 50px 30px 30px;
-	text-align: center;
+	background: black; color:#fff; height: 100%; padding: 30px 50px 30px 30px; text-align: center;
 }
