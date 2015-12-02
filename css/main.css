@@ -93,31 +93,35 @@
 	background: url("../img/background/city.jpg"); background-size: cover;
 	height:430px; color: #FAFAFA; text-align: center;
 }
+.s6-boton{
+	color: white; background: rgba(1,1,1,.2); border-radius: 0; border: none; 
+	position: relative; margin:40px 20px 30px; padding: 10px; font-weight: bold;
+}
 /*Choose the package*/
 #seccion-7{
 	width: 100%; background: #f4f4f4; text-align: center; 
 	padding: 30px 0px 90px 0px;
 }
 .thumbnail{
-	height: 100%; width: 93%; margin-top: 40px; padding: 30px 0px;
-}
-.thumbnail ul{
- 	padding-left: 15px;
+	height: 100%; width: 100%; margin-top: 40px; 
 }
 .thumbnail li{
-	list-style: none; margin: 10px; margin-left: 0px;
+	list-style: none; 
 }
 .s7-negro{
 	height: 100%; background: #323A45; color: #FAFAFA;
-	width: 300px; font-size: 30px; padding: 20px;
+	width: 100%; font-size: 30px;padding: 20px; margin: 20px 0px 0px -20px;
 }
 .s7-celeste{
 	height: 100%; background: #0DC0C0; color: #FAFAFA;
-	width: 300px; font-size: 30px; padding: 20px;
+	width: 100%; font-size: 30px; padding: 20px; margin: 20px 0px 0px -20px;
 }
 .s7-plomo{
-	height: 100%; background: #f4f4f4; color: #323A45; width: 300px;
-	font-size: 16px; padding: 35px; margin-bottom: 40px;
+	height: 100%; background: #f4f4f4; color: #323A45; 
+	width: 100%; font-size: 16px; padding: 35px; margin: 0px 0px 20px -20px;
+}
+.s7-t{
+	width: 100%;font-size: 15px;color: #323A45; margin: 0px 0px 20px -20px;
 }
 hr{
 	width: 260px;
@@ -158,5 +162,5 @@ hr{
 }
 /*Footer*/
 .footer{
-	background: black; color:#fff; height: 100%; padding: 30px 50px 30px 30px; text-align: center;
+	background: #222222; color:#c9d1d6; height: 100%; padding: 30px 50px 30px 30px; text-align: center;
 }
