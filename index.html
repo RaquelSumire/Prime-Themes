@@ -19,8 +19,9 @@
 <body>
 <!-- Header Menu y logo -->
 <div id="seccion-1">
-  <div class="container">
-    <div class="row">
+  <div id="filtro">
+    <div class="container">
+      <div class="row">
         <div class="col-sm-6">
           <section class="logo"><span class="ion-ios-star-half"><strong>PRIMES</strong></span></section>
         </div>
@@ -30,20 +31,25 @@
             <li><a href="#">Home</a></li>
             <li><a href="#seccion-2">Features</a></li>
             <li><a href="#seccion-5">Portafolio</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#seccion-7">Pricing</a></li>
+            <li><a href="#seccion-9">Contact</a></li>
             </ul>
           </nav>
-        </div>   
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+              <section style="padding:110px 0px 250px 70px;color:white;text-align:center">
+              <h1>Launch Your <b> Business </b> with <b> Primes</b></h1>
+              <br>
+              <p style="color:#FAFAFA;font-size:17px">Vivamuscommodo felis quis pharetra, ac venenatis magna lacinia. Vestibulum quis dignissim nibh.Duis vitae felis <br>orci.</p>
+              <button type="button" class="btn">Our Portfolio</button>
+              <button type="button" class="btn">Learn More</button>
+              </section>
+          </div>   
+      </div>
     </div>
   </div>
-        <div id="filtro">
-            <h1>Launch Your <b> Business </b> with <b> Primes</b></h1>
-            <br>
-            <p style="color:#FAFAFA;font-size:17px">Vivamuscommodo felis quis pharetra, ac venenatis magna lacinia. Vestibulum quis dignissim nibh.Duis vitae felis <br>orci.</p>
-            <button type="button" class="btn">Our Portfolio</button>
-            <button type="button" class="btn">Learn More</button>
-        </div>
 </div>
 <!--Menu con iconos-->
 <div id="seccion-2">
@@ -60,7 +66,6 @@
           <div class="col-sm-4">
             <div class="s2-minicontenedor">
             <span class="ion-paper-airplane" id="iconos2"></span>
-            <span class=""></span>
             <h4>Lorem ipsum</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -224,18 +229,19 @@
 </div>
 <!--Call to Action-->
 <div id="seccion-6">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
+  <div id="filtro">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <section style="padding:120px 0px 65px 0px"><h3 style="font-size:20px">Quisque aliquam odio eu magna sodales, vel interdum erat suscipit<br><br>Mauris ut portitor tellus</h3>
+            <br>
+            <br>
+            <button type="button" class="s5-boton">Call to Action</button>
+            </section>
+        </div>
       </div>
     </div>
-  </div>
-        <div id="filtro2">
-          <h3 style="font-size:20px">Quisque aliquam odio eu magna sodales, vel interdum erat suscipit<br><br>Mauris ut portitor tellus</h3>
-          <br>
-          <br>
-          <button type="button" class="s5-boton">Call to Action</button>
-        </div>
+  </div>    
 </div>
 <!--Choose the package-->
 <div id="seccion-7">
@@ -298,5 +304,86 @@
     </div>
   </div>   
 </div>
+<!--contacto-->
+<div id="seccion-9">
+  <div id="filtro">
+    <div class="container">
+    <section style="padding:30px 0px 175px 0px">
+      <div class="row">
+        <div class="col-sm-12">
+            <h2 style="text-align: center">Contact Us</h2>
+            <h5 style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+            <h3 style="">Send Message</h3>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form> 
+        </div>
+        <div class="col-sm-6">
+            <h3>About Us</h3>
+            <h5 style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+            <h3>Address</h3>
+            <span class="ion-location"> &nbsp; 13 Brant Street,Burtington,Ontario,Canada</span><br><br><br>
+            <span class="ion-ios-telephone"> &nbsp;Phone:0011 222 335 7773</span>
+        </div>
+      </div>
+      </section>
+    </div>
+  </div> 
+</div>
+<!--Siguenos-->
+<div id="seccion-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Follow Us!</h2>
+        <p>Class aptent tactil sociosqu ad litora torquet per conubia nostra, per inceptos himenaeos. Suspendisse suscipit <br> tellus vitae porta rutrum. Alquam imperdiet nulla id scelerisque auctor.</p>
+        <span class="ion-social-facebook" id="iconos3"></span>
+        <span class="ion-social-twitter" id="iconos3"></span>
+        <span class="ion-social-linkedin-outline" id="iconos3"></span>
+        <span class="ion-social-pinterest" id="iconos3"></span>
+        <span class="ion-social-googleplus" id="iconos3"></span>
+      <div>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+<div id="seccion-11">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h6>primes 2015 - laboratoria.la</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
