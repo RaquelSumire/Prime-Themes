@@ -6,7 +6,7 @@
 	color:#0DC0C0; font-size:50px;
 }
 #filtro{
-	background: rgba(0,0,0,.5); width: 100%;  padding: 0px; margin: 0px; display: block;
+	background: rgba(0,0,0,.5); width: 100%;  padding: 0px; margin: 0px; display: block; z-index: 999;
 }
 /*Header Menu y logo */
 #seccion-1{
@@ -140,7 +140,7 @@ hr{
 }
 /*contacto*/
 #seccion-9{
-	background: url("../img/background/contactus.jpg"); background-size: cover;	height: 700px;
+	background: url("../img/background/contactus.jpg"); background-size: cover;
 }
 .email , .subjet, .mensaje{
 	border: none; background: rgba(1,0,0,.2); color:#FAFAFA;
